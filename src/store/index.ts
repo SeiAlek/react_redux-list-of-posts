@@ -28,6 +28,7 @@ export const getError = (state: RootState) => state.errorMessage;
 export const getPosts = (state: RootState) => state.posts;
 export const getUsers = (state: RootState) => state.users;
 export const getComments = (state: RootState) => state.comments;
+
 export { deleteComment };
 
 export const loadPosts = () => {
